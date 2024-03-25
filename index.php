@@ -5,7 +5,6 @@ use Kirby\Cms\App;
 @include_once __DIR__ . '/vendor/autoload.php';
 
 App::plugin('distantnative/search-for-kirby', [
-    'api'   => require 'src/config/api.php',
     'hooks' => require 'src/config/hooks.php',
     'translations' => [
         'en' => require 'src/config/i18n/en.php',
